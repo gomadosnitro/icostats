@@ -7,6 +7,28 @@ module.exports = [
    * http://www.econotimes.com/Crypto-market-datafeeds-platform-Santiment-raises-12M-in-two-stage-crowdsale-792019
    */
   {
+  /**
+   * Sources:
+   * https://medium.com/boscoin/boscoin-fundraiser-starts-now-62cd1146412f
+   * https://medium.com/boscoin/boscoin-fundraiser-success-1e09065f838e
+   */
+  id: 'boscoin',
+  name: 'BOScoin',
+  symbol: 'BOS',
+  ticker: 'bos',
+  eth_price_at_launch: 88.66,
+  btc_price_at_launch: 1798.14,
+  raise: 12202995.54,
+  amount_sold_in_ico: 276093688.786,
+  start_date: '05/10/2017',
+  supported_changelly: false,
+  is_erc20: false,
+  // Below keys are optional but recommended
+  raise_by_currency: {
+    btc: 6902.342
+  }
+},
+  {
     id: 'santiment',
     symbol: 'SAN',
     is_erc20: true,
@@ -1154,3 +1176,4 @@ module.exports = [
     amount_sold_in_ico: 500000000
   }
 ];
+
