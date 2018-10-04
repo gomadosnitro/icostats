@@ -1,11 +1,6 @@
 /* eslint-disable */
 module.exports = [
-  /**
-   * Sources:
-   * https://www.cryptocoinsnews.com/santiment-raises-12-215-million-in-two-stage-token-crowdsale/
-   * https://www.finextra.com/pressarticle/69964/crypto-market-data-feed-platform-santiment-closes-12m-token-sale
-   * http://www.econotimes.com/Crypto-market-datafeeds-platform-Santiment-raises-12M-in-two-stage-crowdsale-792019
-   */
+  
   {
   /**
    * Sources:
@@ -28,6 +23,12 @@ module.exports = [
     btc: 6902.342
   }
 },
+  /**
+   * Sources:
+   * https://www.cryptocoinsnews.com/santiment-raises-12-215-million-in-two-stage-token-crowdsale/
+   * https://www.finextra.com/pressarticle/69964/crypto-market-data-feed-platform-santiment-closes-12m-token-sale
+   * http://www.econotimes.com/Crypto-market-datafeeds-platform-Santiment-raises-12M-in-two-stage-crowdsale-792019
+   */
   {
     id: 'santiment',
     symbol: 'SAN',
